@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-df = pd.read_csv(r"datasets\optimized_amazone_data.csv")
+df = pd.read_csv(r"datasets/optimized_amazone_data.csv")
 df.drop(columns="Unnamed: 0", inplace=True)
 
 # Set up the Streamlit app layout
